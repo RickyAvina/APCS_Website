@@ -1,0 +1,30 @@
+body {
+	background-image: url("marble.jpg");
+}
+
+#Wrapper {
+	width: 50%;
+	height: 2000px;
+	background-image: url("blossom.jpg");
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
+p{
+	text-align: center;
+	font: hebrew;
+	font-size: 42px;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#Nav {
+	width: 100%;
+	height: 400px;
+	background-color: red;
+	margin-top: 7%;
+}
