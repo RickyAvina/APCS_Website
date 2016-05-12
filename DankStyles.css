@@ -1,5 +1,13 @@
 body {
+	background-color: black;
+	margin: 0;
+}
+
+#Main{
+	width:100%;
+	height: 2000px;
 	background-image: url("marble.jpg");
+	margin: 0 auto;
 }
 
 #Wrapper {
