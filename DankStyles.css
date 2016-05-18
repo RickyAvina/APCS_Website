@@ -6,6 +6,7 @@ body {
 #Main{
 	width:100%;
 	height: 2000px;
+	position: absolute;
 	background-image: url("marble.jpg");
 	margin: 0 auto;
 }
@@ -18,7 +19,7 @@ body {
 	border-radius: 25px;
 }
 
-p{
+h1{
 	text-align: center;
 	font: hebrew;
 	font-size: 42px;
@@ -35,4 +36,13 @@ img {
 	height: 400px;
 	background-color: red;
 	margin-top: 7%;
+}
+
+embed{
+	position: absolute;
+	background-color: blue;
+}
+
+#butone {
+	float: right;
 }
