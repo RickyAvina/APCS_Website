@@ -9,6 +9,13 @@ body {
     background-color: #000;
 		z-index: 3;
 }
+
+#demo1{
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
 #nav_wrapper {
     width: 960px;
     margin: 0 auto;
@@ -96,6 +103,39 @@ h1 {
 .section#s5 {
     background-image: url("puppers/doggo4.jpg");
 }
+
+.section#g1 {
+    background-image: url(“puppers/doggo1.jpg”);
+}
+.section#g2 {
+    background-image: url(“Nature/Nature2.png”);
+}
+.section#g3 {
+    background-image: url(“Nature/Nature3.png”);
+}
+.section#g4 {
+    background-image: url(“Nature/Nature4.png”);
+}
+.section#g5 {
+    background-image: url(“Nature/Nature5.png”);
+}
+
+.section#d1 {
+    background-image: url(“Nature/Nature6.png”);
+}
+.section#d2 {
+    background-image: url(“Nature/Nature7.png”);
+}
+.section#d3 {
+    background-image: url(“Nature/Nature8.png”);
+}
+.section#d4 {
+    background-image: url(“Nature/Nature4.png”);
+}
+.section#d5 {
+    background-image: url(“Nature/Nature5.png”);
+}
+
 
 but1{
   margin:auto;
