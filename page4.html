@@ -1,0 +1,75 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title>
+		Page4
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="page2.css">
+
+</head>
+
+<body>
+
+	  <div id="nav">
+      <div id="nav_wrapper">
+          <ul>
+              <li><a href="page2.html">Homepage</a>
+              </li>
+              <li> <a href="jspage.html">Javascript Page</a>
+              </li>
+              <li> <a href="#">Social Media</a>
+                  <ul>
+                      <li><a href="https://www.instagram.com/riqayy/">Instagram</a>
+                      </li>
+                      <li><a href="https://twitter.com/TheRickyAvina">Twitter</a>
+                      </li>
+                      <li><a href="#">Snap: RickyAvina</a>
+                      </li>
+                  </ul>
+              </li>
+              <li> <a href="page4.html">Page4</a>
+
+                  <ul>
+                      <li><a href="#">dropdown #2 item #1</a>
+                      </li>
+                      <li><a href="#">dropdown #2 item #2</a>
+                      </li>
+                      <li><a href="#">dropdown #2 item #3</a>
+                      </li>
+                  </ul>
+              </li>
+              <li> <a href="#">item #3</a>
+              </li>
+          </ul>
+      </div>
+      <!-- Nav wrapper end -->
+  </div>
+  <!-- Nav end -->
+
+<br><br><br>
+
+Name: <input type="text" id="myText" value="Mickey">
+
+<p id = "changeMe"> Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+
+	var grades = [document.getElementById("myText").value.substring(0,1), document.getElementById("myText").value.substring(2,3), document.getElementById("myText").value.substring(4)];
+
+	var total = 0;
+for(var i = 0; i < grades.length; i++) {
+    total += grades[i];
+}
+var avg = total / grades.length
+
+	  document.getElementById("changeMe").innerHTML = avg
+	  ;
+}
+</script>
+
+</body>
+</html>

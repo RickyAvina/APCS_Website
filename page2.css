@@ -10,6 +10,10 @@ body {
 		z-index: 3;
 }
 
+#changeMe {
+    color: white;
+}
+
 #demo1{
 	color: white;
 	margin: 0;
@@ -105,29 +109,29 @@ h1 {
 }
 
 .section#g1 {
-    background-image: url(“puppers/doggo1.jpg”);
+    background-image: url(“http://science-all.com/images/wallpapers/nature-hd-images/nature-hd-images-5.jpg”);
 }
 .section#g2 {
-    background-image: url(“Nature/Nature2.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Nature-Wallpaper-HD-Desktop-free.jpg”);
 }
 .section#g3 {
-    background-image: url(“Nature/Nature3.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Red-Leaves-Photo-Nature-Wallpaper-HD-Free.jpg”);
 }
 .section#g4 {
-    background-image: url(“Nature/Nature4.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Desktop-nature-wallpaper-gallery.jpg”);
 }
 .section#g5 {
-    background-image: url(“Nature/Nature5.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/desktop-nature-wallpaper-high-quality-wallpaper.jpg”);
 }
 
 .section#d1 {
-    background-image: url(“Nature/Nature6.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Desktop-Wallpaper-For-Nature.jpg”);
 }
 .section#d2 {
-    background-image: url(“Nature/Nature7.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Natural-Desktop-Background-wallpaper.jpg”);
 }
 .section#d3 {
-    background-image: url(“Nature/Nature8.png”);
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Free-download-Nature-wallpaper-HD.jpg”);
 }
 .section#d4 {
     background-image: url(“Nature/Nature4.png”);
